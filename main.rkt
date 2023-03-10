@@ -23,7 +23,6 @@
   [else #'(void)])
 (provide wire)
 
-
 (define-macro (define/display (ID) BODY)
   #'(begin
       (define (ID) BODY)
